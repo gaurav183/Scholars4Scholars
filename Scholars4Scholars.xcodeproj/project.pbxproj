@@ -14,6 +14,19 @@
 		782D6B721C8F5773004D0602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782D6B701C8F5773004D0602 /* LaunchScreen.storyboard */; };
 		782D6B7D1C8F5773004D0602 /* Scholars4ScholarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782D6B7C1C8F5773004D0602 /* Scholars4ScholarsTests.swift */; };
 		782D6B881C8F5773004D0602 /* Scholars4ScholarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782D6B871C8F5773004D0602 /* Scholars4ScholarsUITests.swift */; };
+		78EE6EAB1C8F67D5002D12FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE6EA91C8F67D5002D12FE /* LoginViewController.swift */; };
+		78EE6EAC1C8F67D5002D12FE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE6EAA1C8F67D5002D12FE /* SignUpViewController.swift */; };
+		78EE6EB71C8F6ACC002D12FE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EE6EB11C8F6ACC002D12FE /* Bolts.framework */; };
+		78EE6EB81C8F6ACC002D12FE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EE6EB21C8F6ACC002D12FE /* Parse.framework */; };
+		78EE6EB91C8F6ACC002D12FE /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EE6EB31C8F6ACC002D12FE /* ParseFacebookUtils.framework */; };
+		78EE6EBA1C8F6ACC002D12FE /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EE6EB41C8F6ACC002D12FE /* ParseFacebookUtilsV4.framework */; };
+		78EE6EBB1C8F6ACC002D12FE /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EE6EB51C8F6ACC002D12FE /* ParseTwitterUtils.framework */; };
+		78EE6EBC1C8F6ACC002D12FE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EE6EB61C8F6ACC002D12FE /* ParseUI.framework */; };
+		78EE6EBE1C8F7B72002D12FE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EE6EBD1C8F7B72002D12FE /* libsqlite3.tbd */; };
+		78EE6EC01C8F7BAA002D12FE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EE6EBF1C8F7BAA002D12FE /* SystemConfiguration.framework */; };
+		78EE6EC21C8F7BB4002D12FE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EE6EC11C8F7BB4002D12FE /* AudioToolbox.framework */; };
+		78EE6EC41C8F7BDB002D12FE /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EE6EC31C8F7BDB002D12FE /* libstdc++.6.tbd */; };
+		78EE6EC61C8F7EE8002D12FE /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 78EE6EC51C8F7EE8002D12FE /* Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		782D6B831C8F5773004D0602 /* Scholars4ScholarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Scholars4ScholarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		782D6B871C8F5773004D0602 /* Scholars4ScholarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scholars4ScholarsUITests.swift; sourceTree = "<group>"; };
 		782D6B891C8F5773004D0602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78EE6EA91C8F67D5002D12FE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		78EE6EAA1C8F67D5002D12FE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		78EE6EB11C8F6ACC002D12FE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		78EE6EB21C8F6ACC002D12FE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		78EE6EB31C8F6ACC002D12FE /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		78EE6EB41C8F6ACC002D12FE /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		78EE6EB51C8F6ACC002D12FE /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		78EE6EB61C8F6ACC002D12FE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		78EE6EBD1C8F7B72002D12FE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		78EE6EBF1C8F7BAA002D12FE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		78EE6EC11C8F7BB4002D12FE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		78EE6EC31C8F7BDB002D12FE /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		78EE6EC51C8F7EE8002D12FE /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78EE6EC41C8F7BDB002D12FE /* libstdc++.6.tbd in Frameworks */,
+				78EE6EC21C8F7BB4002D12FE /* AudioToolbox.framework in Frameworks */,
+				78EE6EC01C8F7BAA002D12FE /* SystemConfiguration.framework in Frameworks */,
+				78EE6EBE1C8F7B72002D12FE /* libsqlite3.tbd in Frameworks */,
+				78EE6EBC1C8F6ACC002D12FE /* ParseUI.framework in Frameworks */,
+				78EE6EB81C8F6ACC002D12FE /* Parse.framework in Frameworks */,
+				78EE6EB71C8F6ACC002D12FE /* Bolts.framework in Frameworks */,
+				78EE6EBA1C8F6ACC002D12FE /* ParseFacebookUtilsV4.framework in Frameworks */,
+				78EE6EB91C8F6ACC002D12FE /* ParseFacebookUtils.framework in Frameworks */,
+				78EE6EBB1C8F6ACC002D12FE /* ParseTwitterUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +113,16 @@
 		782D6B5B1C8F5773004D0602 = {
 			isa = PBXGroup;
 			children = (
+				78EE6EC31C8F7BDB002D12FE /* libstdc++.6.tbd */,
+				78EE6EC11C8F7BB4002D12FE /* AudioToolbox.framework */,
+				78EE6EBF1C8F7BAA002D12FE /* SystemConfiguration.framework */,
+				78EE6EBD1C8F7B72002D12FE /* libsqlite3.tbd */,
+				78EE6EB11C8F6ACC002D12FE /* Bolts.framework */,
+				78EE6EB21C8F6ACC002D12FE /* Parse.framework */,
+				78EE6EB31C8F6ACC002D12FE /* ParseFacebookUtils.framework */,
+				78EE6EB41C8F6ACC002D12FE /* ParseFacebookUtilsV4.framework */,
+				78EE6EB51C8F6ACC002D12FE /* ParseTwitterUtils.framework */,
+				78EE6EB61C8F6ACC002D12FE /* ParseUI.framework */,
 				782D6B661C8F5773004D0602 /* Scholars4Scholars */,
 				782D6B7B1C8F5773004D0602 /* Scholars4ScholarsTests */,
 				782D6B861C8F5773004D0602 /* Scholars4ScholarsUITests */,
@@ -101,7 +147,10 @@
 				782D6B691C8F5773004D0602 /* ViewController.swift */,
 				782D6B6B1C8F5773004D0602 /* Main.storyboard */,
 				782D6B6E1C8F5773004D0602 /* Assets.xcassets */,
+				78EE6EC51C8F7EE8002D12FE /* Logo.png */,
 				782D6B701C8F5773004D0602 /* LaunchScreen.storyboard */,
+				78EE6EA91C8F67D5002D12FE /* LoginViewController.swift */,
+				78EE6EAA1C8F67D5002D12FE /* SignUpViewController.swift */,
 				782D6B731C8F5773004D0602 /* Info.plist */,
 			);
 			path = Scholars4Scholars;
@@ -234,6 +283,7 @@
 			files = (
 				782D6B721C8F5773004D0602 /* LaunchScreen.storyboard in Resources */,
 				782D6B6F1C8F5773004D0602 /* Assets.xcassets in Resources */,
+				78EE6EC61C8F7EE8002D12FE /* Logo.png in Resources */,
 				782D6B6D1C8F5773004D0602 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78EE6EAB1C8F67D5002D12FE /* LoginViewController.swift in Sources */,
 				782D6B6A1C8F5773004D0602 /* ViewController.swift in Sources */,
+				78EE6EAC1C8F67D5002D12FE /* SignUpViewController.swift in Sources */,
 				782D6B681C8F5773004D0602 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +452,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Scholars4Scholars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gaurav.Scholars4Scholars;
@@ -411,6 +467,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Scholars4Scholars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gaurav.Scholars4Scholars;
@@ -485,6 +545,7 @@
 				782D6B8E1C8F5773004D0602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		782D6B8F1C8F5773004D0602 /* Build configuration list for PBXNativeTarget "Scholars4ScholarsTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +554,7 @@
 				782D6B911C8F5773004D0602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		782D6B921C8F5773004D0602 /* Build configuration list for PBXNativeTarget "Scholars4ScholarsUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +563,7 @@
 				782D6B941C8F5773004D0602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
