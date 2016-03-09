@@ -27,11 +27,15 @@ class LoginViewController: UIViewController {
                     if error != nil {
                         self.logInError("Token Invalid")
                     } else {
-                        //sets current user
+                        if (user!["role"] as! String? == "student") {
+                            self.performSegueWithIdentifier("studentLogin", sender:self)
+                        } else {
+                            self.performSegueWithIdentifier("scholarLogin", sender:self)
+                        }
                     }
                 })
                 
-                self.performSegueWithIdentifier("showPhotoBox", sender:self)
+                
             } else {
                 if let error = error {
                     let errorString = error.userInfo["error"] as? String

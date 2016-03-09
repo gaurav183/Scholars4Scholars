@@ -17,6 +17,10 @@ class SignUpViewController: UIViewController {
     
     @IBOutlet weak var emailField: UITextField!
     
+    @IBOutlet weak var hierarchy: UISegmentedControl!
+    
+    var roleText = "student"
+    
     @IBAction func signup(sender: AnyObject) {
         if (usernameField.text == "" || passwordField.text == "" || emailField.text == "") {
             self.signUpError("Please make sure all fields are complete")
@@ -26,13 +30,18 @@ class SignUpViewController: UIViewController {
             user.username = usernameField.text
             user.password = passwordField.text
             user.email = emailField.text
+            if (hierarchy.selectedSegmentIndex == 0) {
+                roleText = "student"
+            } else {
+                roleText = "scholar"
+            }
+            user["role"] = roleText
             
             user.signUpInBackgroundWithBlock {
                 (succeeded: Bool, error: NSError?) -> Void in
                 if let error = error {
                     let errorString = error.userInfo["error"] as? String
                     self.signUpError(errorString!)
-                    
                 } else {
                     self.performSegueWithIdentifier("showLoginViewController", sender:self)
                 }
