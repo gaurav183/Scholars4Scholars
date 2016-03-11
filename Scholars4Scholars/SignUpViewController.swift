@@ -22,6 +22,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var hierarchy: UISegmentedControl!
     
     var roleText = "student"
+    var hi = "hi"
     
     @IBAction func signup(sender: AnyObject) {
         if (usernameField.text == "" || passwordField.text == "" || emailField.text == "") {
