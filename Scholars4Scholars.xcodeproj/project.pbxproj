@@ -14,6 +14,8 @@
 		782D6B721C8F5773004D0602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782D6B701C8F5773004D0602 /* LaunchScreen.storyboard */; };
 		782D6B7D1C8F5773004D0602 /* Scholars4ScholarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782D6B7C1C8F5773004D0602 /* Scholars4ScholarsTests.swift */; };
 		782D6B881C8F5773004D0602 /* Scholars4ScholarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782D6B871C8F5773004D0602 /* Scholars4ScholarsUITests.swift */; };
+		78832D141C924BAC00FE5D25 /* StudentHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78832D131C924BAC00FE5D25 /* StudentHomeController.swift */; };
+		78832D161C924BB700FE5D25 /* ScholarHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78832D151C924BB700FE5D25 /* ScholarHomeController.swift */; };
 		78EE6EAB1C8F67D5002D12FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE6EA91C8F67D5002D12FE /* LoginViewController.swift */; };
 		78EE6EAC1C8F67D5002D12FE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE6EAA1C8F67D5002D12FE /* SignUpViewController.swift */; };
 		78EE6EB71C8F6ACC002D12FE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78EE6EB11C8F6ACC002D12FE /* Bolts.framework */; };
@@ -60,6 +62,8 @@
 		782D6B831C8F5773004D0602 /* Scholars4ScholarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Scholars4ScholarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		782D6B871C8F5773004D0602 /* Scholars4ScholarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scholars4ScholarsUITests.swift; sourceTree = "<group>"; };
 		782D6B891C8F5773004D0602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78832D131C924BAC00FE5D25 /* StudentHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentHomeController.swift; sourceTree = "<group>"; };
+		78832D151C924BB700FE5D25 /* ScholarHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScholarHomeController.swift; sourceTree = "<group>"; };
 		78EE6EA91C8F67D5002D12FE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		78EE6EAA1C8F67D5002D12FE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		78EE6EB11C8F6ACC002D12FE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 				782D6B701C8F5773004D0602 /* LaunchScreen.storyboard */,
 				78EE6EA91C8F67D5002D12FE /* LoginViewController.swift */,
 				78EE6EAA1C8F67D5002D12FE /* SignUpViewController.swift */,
+				78832D131C924BAC00FE5D25 /* StudentHomeController.swift */,
+				78832D151C924BB700FE5D25 /* ScholarHomeController.swift */,
 				782D6B731C8F5773004D0602 /* Info.plist */,
 			);
 			path = Scholars4Scholars;
@@ -312,6 +318,8 @@
 				78EE6EAB1C8F67D5002D12FE /* LoginViewController.swift in Sources */,
 				782D6B6A1C8F5773004D0602 /* ViewController.swift in Sources */,
 				78EE6EAC1C8F67D5002D12FE /* SignUpViewController.swift in Sources */,
+				78832D161C924BB700FE5D25 /* ScholarHomeController.swift in Sources */,
+				78832D141C924BAC00FE5D25 /* StudentHomeController.swift in Sources */,
 				782D6B681C8F5773004D0602 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,8 @@ import Parse
 
 
 class SignUpViewController: UIViewController {
+    @IBOutlet weak var nameField: UITextField!
+    
     @IBOutlet weak var usernameField: UITextField!
     
     @IBOutlet weak var passwordField: UITextField!
@@ -27,6 +29,7 @@ class SignUpViewController: UIViewController {
             
         } else {
             let user = PFUser()
+            user["name"] = nameField.text
             user.username = usernameField.text
             user.password = passwordField.text
             user.email = emailField.text
